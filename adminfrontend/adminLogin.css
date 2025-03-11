@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: rgb(255, 254, 240);
+    top: 10%;
+    margin-bottom: 20px;
+    height:75px;
+    border-bottom: 2px;
+}
+
+.loginLogoCon{
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+.formWrap{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border: 2px solid rgb(175, 255, 255);
+    height: 150px;
+}
+
+.inputDiv{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaBE Administration</title>
+    <link href="./adminCompletedOrders.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div  class="adminCompletedLogoCon">
+                <h1 class="adminCompletedLogo"><a href="./adminInventoryHome.html">Shower BaBE Admin</a></h1>
+            </div>
+            </div>
+            <div  class="adminCompletedOrdersCon">
+                <h3 class="adminCompletedOrderTab"><a href="./adminCompletedOrders.html">Completed Orders</a></h3>
+                <span class="completeOrdersNotification" id="completeOrdersNotification">
+                    <p id="orderCount"></p>
+                </span>
+            </div>
+            <div  class="adminCompletedHBCon">
+                <h3 class="adminCompletedHomeTab"><a href="./adminInventoryHome.html">Home</a></h3>
+            </div>
+            </span>
+        </nav>
+    </header>
+
+    <div>
+        <table class="adminCompletedOrderTable">
+            <th>Transaction Id:</th>
+            <th>Status:</th>
+            <th>Full Name:</th>
+            <th>Email:</th>
+            <th>Amount:</th>
+            <th>Customer Address:</th>
+            <th>Time of Transaction:</th>
+
+            <tbody id="adminCompletedOrderBody"></tbody>
+        </table>
+    </div>
+</body>
+<script src="./adminCompletedOrders.js"></script>

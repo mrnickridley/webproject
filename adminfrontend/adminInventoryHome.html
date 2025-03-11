@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaBE Administration</title>
+    <link href="./adminInventoryHome.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div  class="inHomeLogoCon">
+                <h1 class="inHomeLogo"><a href="./adminInventoryHome.html">Shower BaBE Admin</a></h1>
+            </div>
+            </div>
+            <div  class="inHomeCompletedOrdersCon">
+                <h3 class="comOrderTab"><a href="./adminCompletedOrders.html">Completed Orders</a></h3>
+                <span class="coNotification" id="coNotification">
+                    <p id="orderCount"></p>
+                </span>
+            </div>
+            <div  class="inHomeHBCon">
+                <h3 class="homeTab"><a href="./adminInventoryHome.html">Home</a></h3>
+            </div>
+            </span>
+        </nav>
+    </header>
+
+
+    <div class="inFormContainer">
+        <form class="inventoryForm">
+            <div class="inventoryInput">
+                <label>Unit Name:</label>
+                <input type="text" name="unitname" id="unitname" required>
+            </div>
+            <div class="inventoryInput">
+                <label>Decription:</label>
+                <input type="text" name="unitdescription" id="unitdescription" required>
+            </div>
+            <div class="inventoryInput">
+                <label>Category:</label>
+                <input type="text" name="unitcategory" id="unitcategory" required>
+            </div>
+            <div class="inventoryInput">
+                <label>Price of Unit :</label>
+                <input type="text" name="unitprice" id="unitprice" required>
+            </div>
+            <div class="inventoryInput">
+                <label>Sex:</label>
+                <input type="text" name="unitsex" id="unitsex" required>
+            </div>
+            <div class="inventoryInput">
+                <label>Amount of Units:</label>
+                <input type="text" name="amountofunits" id="amountofunits" required>
+            </div>
+            <div class="inventoryInput">
+                <label>Unit Photo:</label>
+                <input type="text" name="photopath" id="photopath" required>
+            </div>
+            <div class="inventoryInput">
+                <button type="button" id="submitUnit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div>
+        <table class="inventoryTable">
+            <th>Id:</th>
+            <th>Unit Name:</th>
+            <th>Unit Description:</th>
+            <th>Unit Category:</th>
+            <th>Unit Price:</th>
+            <th>Unit Sex:</th>
+            <th>Amount of Units:</th>
+            <th>Unit Photo:</th>
+
+            <tbody id="inventoryDataBody"></tbody>
+        </table>
+    </div>
+
+</body>
+<script src="./adminInventory.js"></script>
+</html>
