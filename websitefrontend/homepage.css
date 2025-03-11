@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 254, 240);
+}
+/*Navigation Bar*/
+nav{
+    position: fixed;
+    width: 100%;
+    background: rgb(255, 254, 240);
+    top: 0%;
+    height:75px;
+    border-bottom: 2px solid rgb(175, 255, 255) ;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:  rgb(255, 150, 252);
+}
+
+.homepageLogoCon{
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.homepageHBCon{
+    position: absolute;
+    margin:auto;
+    left: 3%;
+    top: 30%;
+}
+
+.homepageCOCon{
+    position: absolute;
+    margin:auto;
+    right: 15%;
+    top: 30%;
+}
+
+.cartNotification{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 150, 252);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -55%;
+    right: -15px;
+}
+
+.homepageMLCon{
+    position: absolute;
+    margin:auto;
+    right: 3%;
+    top: 30%;
+}
+
+.memberCon{
+    display: none;
+    position: absolute;
+    margin:auto;
+    right: 3%;
+    top: 20%;
+    background:none;
+    width: 100px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.memberCon:hover{
+    color:  rgb(255, 150, 252);
+}
+
+.logout{
+    display: none;
+    position: absolute;
+    margin:auto;
+    right: 3%;
+    top: 60%;
+    background:none;
+    width: 100px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    font-size:medium;
+    justify-content: center; 
+    z-index: 1000;
+}
+
+.logout:hover{
+    background: rgb(175, 255, 255);
+}
+
+/* Start of Body - Sort section*/
+.sortCon{
+    background-color: rgb(255, 254, 240);
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    margin: auto;
+    top: 9.2%;
+    text-align: center;
+}
+
+.sortSpan{
+    position: relative;
+    padding-left: 3%;
+    top: 25%
+}
+
+/* Start of Body - Product section*/
+.productList{
+margin-top: 9.5%;
+}
+
+.productDiv {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    width: 205px;
+    height: 370px;
+    background-color: white;
+    border: 2px solid rgb(175, 255, 255);
+}
+
+/* Product Pop-Up*/
+.productPreview{
+    position: fixed;
+    top: 0;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0, 0.3);
+    display: flex;
+    display: none;
+}
+
+.bT{
+    position: absolute;
+    justify-content: center;
+    font: 2em sans-serif;
+    width: 30px;
+    height: 40px;
+    right:2%;
+    top: 2%;
+    border: 2px solid rgb(175, 255, 255);
+}
+
+
+.productPreview .diviT{
+    position: relative;
+    background: #fff;
+    border: 5px solid rgb(175, 255, 255);
+    padding: 0.5rem;
+    text-align: center;
+    width: 25%;
+    margin-top: 15%;
+    margin-left: 37%;
+}
+
+
+.productPreview.active{
+    display: inline-block;
+    width: 100%;
+}
+
+.cButt {
+    justify-content: center;
+    width: 75px;
+    height: 20px;
+}
+
+.cButt:hover{
+    background-color: rgb(216, 255, 255);
+    color:  rgb(255, 150, 252);
+}
+
+
+
+

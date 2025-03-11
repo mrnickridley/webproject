@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 254, 240);
+}
+/*Navigation Bar*/
+nav{
+    position: fixed;
+    width: 100%;
+    background: rgb(255, 254, 240);
+    top: 0%;
+    height:75px;
+    border-bottom: 2px solid rgb(175, 255, 255) ;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:  rgb(255, 150, 252);
+}
+
+.loginLogoCon{
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.loginHBCon{
+    position: absolute;
+    margin:auto;
+    left: 3%;
+    top: 30%;
+}
+
+.loginCOCon{
+    position: absolute;
+    margin:auto;
+    right: 15%;
+    top: 30%;
+}
+
+.loginMLCon{
+    position: absolute;
+    margin:auto;
+    right: 3%;
+    top: 30%;
+}
+
+.loginTit{
+    text-align: center;
+}
+
+.signupTit{
+    text-align: center;
+}
+.formWrapper{
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border: 2px solid rgb(175, 255, 255);
+    height: 150px;
+}
+
+.inputDiv{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

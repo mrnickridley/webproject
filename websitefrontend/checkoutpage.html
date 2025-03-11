@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaBE</title>
+    <link href="./checkoutpage.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div  class="homepageLogoCon">
+                <a href="homepage.html"><h1 class="homepageLogo">Shower BaBE</h1></a>
+            </div>
+            <div  class="homepageHBCon">
+                <h3 class="homepageTab"><a class="ass" href="./homepage.html">Home</a></h3>
+            </div>
+            <div  class="homepageCOCon">
+                <h3 class="checkoutTab"><a href="./checkoutpage.html">Checkout</a></h3>
+                <span class="cartNotification" id="cartNotification">
+                    <p id="cartCount"></p>
+                </span>
+            </div>
+            <div  class="homepageMLCon">
+                <h3 class="memberLoginTab"><a href="./memberlogin.html" id="memLink">Member Login</a></h3>
+            </div>
+
+            <button  class="memberCon" id="memberCon">
+                <button class="logout" id="logout">Logout</button>
+            </button>
+        </nav>
+    </header>
+
+    <div>
+        <table class="checkoutTable">
+            <th>Name:</th>
+            <th>Price:</th>
+            <th>Currency:</th>
+
+            <tbody id="checkoutBody"></tbody>
+        </table>
+
+        <div id="totalCountDiv">
+            <label>Total: $<span id="totalCount"></span></label>
+        </div>
+
+        <div>
+            <label>Email: </label>
+            <input id="checkoutEmail">
+        </div>
+        
+        <div>
+            <label>Comments: </label>
+            <input id="checkoutComments">
+        </div>
+
+        <button id="proceedCheckout"></button>
+
+    </div>
+
+<script src="./checkoutpage.js"></script>
+</body>
+</html>

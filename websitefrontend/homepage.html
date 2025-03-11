@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaBE</title>
+    <link href="./homepage.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div  class="homepageLogoCon">
+                <a href="homepage.html"><h1 class="homepageLogo">Shower BaBE</h1></a>
+            </div>
+            <div  class="homepageHBCon">
+                <h3 class="homepageTab"><a class="ass" href="./homepage.html">Home</a></h3>
+            </div>
+            <div  class="homepageCOCon">
+                <h3 class="checkoutTab"><a href="./checkoutpage.html">Checkout</a></h3>
+                <span class="cartNotification" id="cartNotification">
+                    <p id="cartCount"></p>
+                </span>
+            </div>
+            <div  class="homepageMLCon">
+                <h3 class="memberLoginTab"><a href="./memberlogin.html" id="memLink">Member Login</a></h3>
+            </div>
+
+            <button  class="memberCon" id="memberCon">
+                <button class="logout" id="logout">Logout</button>
+            </button>
+        </nav>
+    </header>
+        
+    <div class="sortCon">
+        <span class="sortSpan">Sort By:</span>
+        <span class="sortSpan">Price:
+            <select name="" id="lowHighSelect">
+                <option value="Default">Default</option>
+                <option value="LowToHigh">Low to High</option>
+                <option value="HighToLow">High to Low</option>
+            </select>
+        </span>
+
+        <span class="sortSpan">For:
+            <select name="" id="himHerSelect">
+                <option value="Default" id="Default">Default</option>
+                <option value="Both">Both</option>
+                <option value="Him">Him</option>
+                <option value="Her">Her</option>
+            </select>
+        </span>
+        <span class="sortSpan">Category:
+            <select name="" id="categorySelect">
+                <option value="Default">Default</option>
+                <option value="Accessories">Accessories</option>
+                <option value="Body Wash">Body Wash </option>
+                <option value="Dental">Dental</option>
+                <option value="Deoderant">Deoderant</option>
+                <option value="Lotion">Lotion</option>
+                <option value="Shampoo">Shampoo</option>
+                <option value="Soap">Soap</option>
+            </select>
+        </span>
+        <span class="sortSpan">Brand:
+            <select name="" id="brandSelect">
+                <option value="Default">Default</option>
+                <option value="Dr. Bronner's">Dr. Bronner's</option>
+                <option value="Mrs. Meyer's">Mrs. Meyer's</option>
+                <option value="Native">Native</option>
+                <option value="EOS">EOS</option>
+            </select>
+        </span>
+    </div>
+    
+    <ul class="productList" id="productList"></ul>
+
+    <div class="productPreview" id="productPreview"></div>
+
+<script src="./homepage.js"></script>
+</body>
+</html>

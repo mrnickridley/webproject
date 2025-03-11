@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 254, 240);
+}
+/*Navigation Bar*/
+nav{
+    position: fixed;
+    width: 100%;
+    background: rgb(255, 254, 240);
+    top: 0%;
+    height:75px;
+    border-bottom: 2px solid rgb(175, 255, 255) ;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:  rgb(255, 150, 252);
+}
+
+.homepageLogoCon{
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.homepageHBCon{
+    position: absolute;
+    margin:auto;
+    left: 3%;
+    top: 30%;
+}
+
+.homepageCOCon{
+    position: absolute;
+    margin:auto;
+    right: 15%;
+    top: 30%;
+}
+
+.cartNotification{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 150, 252);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -55%;
+    right: -15px;
+}
+
+.homepageMLCon{
+    position: absolute;
+    margin:auto;
+    right: 3%;
+    top: 30%;
+}
+
+.memberCon{
+    display: none;
+    position: absolute;
+    margin:auto;
+    right: 3%;
+    top: 20%;
+    background:none;
+    width: 100px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.memberCon:hover{
+    color:  rgb(255, 150, 252);
+}
+
+.logout{
+    display: none;
+    position: absolute;
+    margin:auto;
+    right: 3%;
+    top: 60%;
+    background:none;
+    width: 100px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    font-size:medium;
+    justify-content: center; 
+    z-index: 1000;
+}
+
+.logout:hover{
+    background: rgb(175, 255, 255);
+}
+
+.checkoutTable{
+    width: 100%;
+    margin-top: 10%
+}
+
+.checkoutTable, th{
+    border:1px solid black;
+}
+
+#totalCountDiv{
+    width: 40%;
+    margin-top: 20%
+}
